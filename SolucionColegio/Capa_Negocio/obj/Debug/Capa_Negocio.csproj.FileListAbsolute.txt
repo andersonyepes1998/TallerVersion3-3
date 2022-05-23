@@ -1,0 +1,33 @@
+C:\Users\valer\OneDrive\Escritorio\Colegio\Capa_Presentacion\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.AssemblyReference.cache
+C:\Users\valer\OneDrive\Escritorio\Colegio\Capa_Presentacion\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.CoreCompileInputs.cache
+C:\Users\valer\OneDrive\Escritorio\Colegio\Capa_Presentacion\Capa_Negocio\bin\Debug\Capa_Negocio.dll
+C:\Users\valer\OneDrive\Escritorio\Colegio\Capa_Presentacion\Capa_Negocio\bin\Debug\Capa_Negocio.pdb
+C:\Users\valer\OneDrive\Escritorio\Colegio\Capa_Presentacion\Capa_Negocio\bin\Debug\Capa_Datos.dll
+C:\Users\valer\OneDrive\Escritorio\Colegio\Capa_Presentacion\Capa_Negocio\bin\Debug\Capa_Entidades.dll
+C:\Users\valer\OneDrive\Escritorio\Colegio\Capa_Presentacion\Capa_Negocio\bin\Debug\Capa_Datos.pdb
+C:\Users\valer\OneDrive\Escritorio\Colegio\Capa_Presentacion\Capa_Negocio\bin\Debug\Capa_Entidades.pdb
+C:\Users\valer\OneDrive\Escritorio\Colegio\Capa_Presentacion\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.CopyComplete
+C:\Users\valer\OneDrive\Escritorio\Colegio\Capa_Presentacion\Capa_Negocio\obj\Debug\Capa_Negocio.dll
+C:\Users\valer\OneDrive\Escritorio\Colegio\Capa_Presentacion\Capa_Negocio\obj\Debug\Capa_Negocio.pdb
+C:\Users\valer\OneDrive\Escritorio\Colegio\SolucionColegio\Capa_Negocio\bin\Debug\Capa_Negocio.dll
+C:\Users\valer\OneDrive\Escritorio\Colegio\SolucionColegio\Capa_Negocio\bin\Debug\Capa_Negocio.pdb
+C:\Users\valer\OneDrive\Escritorio\Colegio\SolucionColegio\Capa_Negocio\bin\Debug\Capa_Datos.dll
+C:\Users\valer\OneDrive\Escritorio\Colegio\SolucionColegio\Capa_Negocio\bin\Debug\Capa_Entidades.dll
+C:\Users\valer\OneDrive\Escritorio\Colegio\SolucionColegio\Capa_Negocio\bin\Debug\Capa_Datos.pdb
+C:\Users\valer\OneDrive\Escritorio\Colegio\SolucionColegio\Capa_Negocio\bin\Debug\Capa_Entidades.pdb
+C:\Users\valer\OneDrive\Escritorio\Colegio\SolucionColegio\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.AssemblyReference.cache
+C:\Users\valer\OneDrive\Escritorio\Colegio\SolucionColegio\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.CoreCompileInputs.cache
+C:\Users\valer\OneDrive\Escritorio\Colegio\SolucionColegio\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.CopyComplete
+C:\Users\valer\OneDrive\Escritorio\Colegio\SolucionColegio\Capa_Negocio\obj\Debug\Capa_Negocio.dll
+C:\Users\valer\OneDrive\Escritorio\Colegio\SolucionColegio\Capa_Negocio\obj\Debug\Capa_Negocio.pdb
+D:\SOFTWARE\2-SEMESTRE\CAMBIO DOMINGOS\Colegio\SolucionColegio\Capa_Negocio\bin\Debug\Capa_Negocio.dll
+D:\SOFTWARE\2-SEMESTRE\CAMBIO DOMINGOS\Colegio\SolucionColegio\Capa_Negocio\bin\Debug\Capa_Negocio.pdb
+D:\SOFTWARE\2-SEMESTRE\CAMBIO DOMINGOS\Colegio\SolucionColegio\Capa_Negocio\bin\Debug\Capa_Datos.dll
+D:\SOFTWARE\2-SEMESTRE\CAMBIO DOMINGOS\Colegio\SolucionColegio\Capa_Negocio\bin\Debug\Capa_Entidades.dll
+D:\SOFTWARE\2-SEMESTRE\CAMBIO DOMINGOS\Colegio\SolucionColegio\Capa_Negocio\bin\Debug\Capa_Datos.pdb
+D:\SOFTWARE\2-SEMESTRE\CAMBIO DOMINGOS\Colegio\SolucionColegio\Capa_Negocio\bin\Debug\Capa_Entidades.pdb
+D:\SOFTWARE\2-SEMESTRE\CAMBIO DOMINGOS\Colegio\SolucionColegio\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.AssemblyReference.cache
+D:\SOFTWARE\2-SEMESTRE\CAMBIO DOMINGOS\Colegio\SolucionColegio\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.CoreCompileInputs.cache
+D:\SOFTWARE\2-SEMESTRE\CAMBIO DOMINGOS\Colegio\SolucionColegio\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.CopyComplete
+D:\SOFTWARE\2-SEMESTRE\CAMBIO DOMINGOS\Colegio\SolucionColegio\Capa_Negocio\obj\Debug\Capa_Negocio.dll
+D:\SOFTWARE\2-SEMESTRE\CAMBIO DOMINGOS\Colegio\SolucionColegio\Capa_Negocio\obj\Debug\Capa_Negocio.pdb

@@ -1,0 +1,17 @@
+C:\Users\valer\OneDrive\Escritorio\Colegio\Capa_Presentacion\Capa_Entidades\bin\Debug\Capa_Entidades.dll
+C:\Users\valer\OneDrive\Escritorio\Colegio\Capa_Presentacion\Capa_Entidades\bin\Debug\Capa_Entidades.pdb
+C:\Users\valer\OneDrive\Escritorio\Colegio\Capa_Presentacion\Capa_Entidades\obj\Debug\Capa_Entidades.csproj.AssemblyReference.cache
+C:\Users\valer\OneDrive\Escritorio\Colegio\Capa_Presentacion\Capa_Entidades\obj\Debug\Capa_Entidades.csproj.CoreCompileInputs.cache
+C:\Users\valer\OneDrive\Escritorio\Colegio\Capa_Presentacion\Capa_Entidades\obj\Debug\Capa_Entidades.dll
+C:\Users\valer\OneDrive\Escritorio\Colegio\Capa_Presentacion\Capa_Entidades\obj\Debug\Capa_Entidades.pdb
+C:\Users\valer\OneDrive\Escritorio\Colegio\SolucionColegio\Capa_Entidades\bin\Debug\Capa_Entidades.dll
+C:\Users\valer\OneDrive\Escritorio\Colegio\SolucionColegio\Capa_Entidades\bin\Debug\Capa_Entidades.pdb
+C:\Users\valer\OneDrive\Escritorio\Colegio\SolucionColegio\Capa_Entidades\obj\Debug\Capa_Entidades.csproj.CoreCompileInputs.cache
+C:\Users\valer\OneDrive\Escritorio\Colegio\SolucionColegio\Capa_Entidades\obj\Debug\Capa_Entidades.dll
+C:\Users\valer\OneDrive\Escritorio\Colegio\SolucionColegio\Capa_Entidades\obj\Debug\Capa_Entidades.pdb
+D:\SOFTWARE\2-SEMESTRE\CAMBIO DOMINGOS\Colegio\SolucionColegio\Capa_Entidades\bin\Debug\Capa_Entidades.dll
+D:\SOFTWARE\2-SEMESTRE\CAMBIO DOMINGOS\Colegio\SolucionColegio\Capa_Entidades\bin\Debug\Capa_Entidades.pdb
+D:\SOFTWARE\2-SEMESTRE\CAMBIO DOMINGOS\Colegio\SolucionColegio\Capa_Entidades\obj\Debug\Capa_Entidades.csproj.AssemblyReference.cache
+D:\SOFTWARE\2-SEMESTRE\CAMBIO DOMINGOS\Colegio\SolucionColegio\Capa_Entidades\obj\Debug\Capa_Entidades.csproj.CoreCompileInputs.cache
+D:\SOFTWARE\2-SEMESTRE\CAMBIO DOMINGOS\Colegio\SolucionColegio\Capa_Entidades\obj\Debug\Capa_Entidades.dll
+D:\SOFTWARE\2-SEMESTRE\CAMBIO DOMINGOS\Colegio\SolucionColegio\Capa_Entidades\obj\Debug\Capa_Entidades.pdb
