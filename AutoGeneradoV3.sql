@@ -1,5 +1,9 @@
 USE [master]
 GO
+/****** Object:  Database [Colegio]    Script Date: 5/22/2022 8:05:00 PM ******/
+CREATE DATABASE [Colegio]
+ 
+GO
 ALTER DATABASE [Colegio] SET COMPATIBILITY_LEVEL = 150
 GO
 IF (1 = FULLTEXTSERVICEPROPERTY('IsFullTextInstalled'))
@@ -71,7 +75,7 @@ ALTER DATABASE [Colegio] SET QUERY_STORE = OFF
 GO
 USE [Colegio]
 GO
-/****** Object:  Table [dbo].[Alumno]    Script Date: 5/22/2022 7:44:07 PM ******/
+/****** Object:  Table [dbo].[Alumno]    Script Date: 5/22/2022 8:05:00 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -88,7 +92,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Curso]    Script Date: 5/22/2022 7:44:07 PM ******/
+/****** Object:  Table [dbo].[Curso]    Script Date: 5/22/2022 8:05:00 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -102,7 +106,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Docente]    Script Date: 5/22/2022 7:44:07 PM ******/
+/****** Object:  Table [dbo].[Docente]    Script Date: 5/22/2022 8:05:00 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -118,7 +122,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Especialidad]    Script Date: 5/22/2022 7:44:07 PM ******/
+/****** Object:  Table [dbo].[Especialidad]    Script Date: 5/22/2022 8:05:00 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -132,7 +136,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Oficina]    Script Date: 5/22/2022 7:44:07 PM ******/
+/****** Object:  Table [dbo].[Oficina]    Script Date: 5/22/2022 8:05:00 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -171,7 +175,7 @@ INSERT [dbo].[Docente] ([ID_Docente], [Nom_Docente], [Dire_Docente], [Tel_Docent
 GO
 INSERT [dbo].[Docente] ([ID_Docente], [Nom_Docente], [Dire_Docente], [Tel_Docente]) VALUES (N'467', N'mario', N'aranjuez', 4590)
 GO
-/****** Object:  StoredProcedure [dbo].[Borrar_Alumno]    Script Date: 5/22/2022 7:44:07 PM ******/
+/****** Object:  StoredProcedure [dbo].[Borrar_Alumno]    Script Date: 5/22/2022 8:05:00 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -182,7 +186,7 @@ as
 delete from Alumno where Id_Alumno = @Id_Alumno
 
 GO
-/****** Object:  StoredProcedure [dbo].[Borrar_Curso]    Script Date: 5/22/2022 7:44:07 PM ******/
+/****** Object:  StoredProcedure [dbo].[Borrar_Curso]    Script Date: 5/22/2022 8:05:00 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -194,7 +198,7 @@ as
 delete from Curso where Id_Curso = @Id_Curso
 
 GO
-/****** Object:  StoredProcedure [dbo].[Borrar_Docente]    Script Date: 5/22/2022 7:44:07 PM ******/
+/****** Object:  StoredProcedure [dbo].[Borrar_Docente]    Script Date: 5/22/2022 8:05:00 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -204,7 +208,7 @@ create proc [dbo].[Borrar_Docente]
 as
 delete from Docente where ID_Docente = @ID_Docente
 GO
-/****** Object:  StoredProcedure [dbo].[Consul_Alumno]    Script Date: 5/22/2022 7:44:07 PM ******/
+/****** Object:  StoredProcedure [dbo].[Consul_Alumno]    Script Date: 5/22/2022 8:05:00 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -215,7 +219,7 @@ as
 select * from Alumno where Id_Alumno = @Id_Alumno
 
 GO
-/****** Object:  StoredProcedure [dbo].[Consul_Alumnos]    Script Date: 5/22/2022 7:44:07 PM ******/
+/****** Object:  StoredProcedure [dbo].[Consul_Alumnos]    Script Date: 5/22/2022 8:05:00 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -224,7 +228,7 @@ create proc [dbo].[Consul_Alumnos]
 as
 select * from Alumno
 GO
-/****** Object:  StoredProcedure [dbo].[Consul_Curso]    Script Date: 5/22/2022 7:44:07 PM ******/
+/****** Object:  StoredProcedure [dbo].[Consul_Curso]    Script Date: 5/22/2022 8:05:00 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -236,7 +240,7 @@ as
 select * from Curso where Id_Curso = @Id_Curso
 
 GO
-/****** Object:  StoredProcedure [dbo].[Consul_Cursos]    Script Date: 5/22/2022 7:44:07 PM ******/
+/****** Object:  StoredProcedure [dbo].[Consul_Cursos]    Script Date: 5/22/2022 8:05:00 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -247,7 +251,7 @@ as
 select * from Curso
 
 GO
-/****** Object:  StoredProcedure [dbo].[Consul_Docente]    Script Date: 5/22/2022 7:44:07 PM ******/
+/****** Object:  StoredProcedure [dbo].[Consul_Docente]    Script Date: 5/22/2022 8:05:00 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -257,7 +261,7 @@ create proc [dbo].[Consul_Docente]
 as
 select * from Docente where ID_Docente = @ID_Docente
 GO
-/****** Object:  StoredProcedure [dbo].[Consul_Docentes]    Script Date: 5/22/2022 7:44:07 PM ******/
+/****** Object:  StoredProcedure [dbo].[Consul_Docentes]    Script Date: 5/22/2022 8:05:00 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -266,7 +270,7 @@ create proc [dbo].[Consul_Docentes]
 as
 select * from Docente
 GO
-/****** Object:  StoredProcedure [dbo].[Consul_Especialidad]    Script Date: 5/22/2022 7:44:07 PM ******/
+/****** Object:  StoredProcedure [dbo].[Consul_Especialidad]    Script Date: 5/22/2022 8:05:00 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -276,7 +280,7 @@ create proc [dbo].[Consul_Especialidad]
 as
 select * from Especialidad where Id_Especialidad = @Id_Especialidad
 GO
-/****** Object:  StoredProcedure [dbo].[Consul_Oficina]    Script Date: 5/22/2022 7:44:07 PM ******/
+/****** Object:  StoredProcedure [dbo].[Consul_Oficina]    Script Date: 5/22/2022 8:05:00 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -286,7 +290,7 @@ create proc [dbo].[Consul_Oficina]
 as
 select * from Oficina where Id_Oficina = @Id_Oficina
 GO
-/****** Object:  StoredProcedure [dbo].[Insertar_Alumno]    Script Date: 5/22/2022 7:44:07 PM ******/
+/****** Object:  StoredProcedure [dbo].[Insertar_Alumno]    Script Date: 5/22/2022 8:05:00 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -300,7 +304,7 @@ create proc [dbo].[Insertar_Alumno]
 as
 insert into Alumno (Id_Alumno, Nom_Alumno, Dir_Alumno, Tel_Alumno, Grp_Alumno) values (@Id_Alumno, @Nom_Alumno, @Dir_Alumno, @Tel_Alumno, @Grp_Alumno)
 GO
-/****** Object:  StoredProcedure [dbo].[Insertar_Curso]    Script Date: 5/22/2022 7:44:07 PM ******/
+/****** Object:  StoredProcedure [dbo].[Insertar_Curso]    Script Date: 5/22/2022 8:05:00 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -311,7 +315,7 @@ create proc [dbo].[Insertar_Curso]
 as
 insert into Curso (Id_Curso, Nom_Curso) values (@Id_Curso, @Nom_Curso)
 GO
-/****** Object:  StoredProcedure [dbo].[Insertar_Docente]    Script Date: 5/22/2022 7:44:07 PM ******/
+/****** Object:  StoredProcedure [dbo].[Insertar_Docente]    Script Date: 5/22/2022 8:05:00 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -324,7 +328,7 @@ create proc [dbo].[Insertar_Docente]
 as
 insert into Docente (ID_Docente, Nom_Docente, Dire_Docente, Tel_Docente) values (@ID_Docente, @Nom_Docente, @Dire_Docente, @Tel_Docente)
 GO
-/****** Object:  StoredProcedure [dbo].[Insertar_Especialidad]    Script Date: 5/22/2022 7:44:07 PM ******/
+/****** Object:  StoredProcedure [dbo].[Insertar_Especialidad]    Script Date: 5/22/2022 8:05:00 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -335,7 +339,7 @@ create proc [dbo].[Insertar_Especialidad]
 as
 insert into Especialidad (Id_Especialidad, Nom_Especialidad) values (@Id_Especialidad, @Nom_Especialidad)
 GO
-/****** Object:  StoredProcedure [dbo].[Modif_Alumno]    Script Date: 5/22/2022 7:44:07 PM ******/
+/****** Object:  StoredProcedure [dbo].[Modif_Alumno]    Script Date: 5/22/2022 8:05:00 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -349,7 +353,7 @@ create proc [dbo].[Modif_Alumno]
 as
 update Alumno set Nom_Alumno=@Nom_Alumno, Dir_Alumno=@Dir_Alumno, Tel_Alumno=@Tel_Alumno, Grp_Alumno=@Grp_Alumno where Id_Alumno=@Id_Alumno
 GO
-/****** Object:  StoredProcedure [dbo].[Modif_Curso]    Script Date: 5/22/2022 7:44:07 PM ******/
+/****** Object:  StoredProcedure [dbo].[Modif_Curso]    Script Date: 5/22/2022 8:05:00 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -360,7 +364,7 @@ create proc [dbo].[Modif_Curso]
 as
 update Curso set Nom_Curso=@Nom_Curso where Id_Curso=@Id_Curso
 GO
-/****** Object:  StoredProcedure [dbo].[Modif_Docente]    Script Date: 5/22/2022 7:44:07 PM ******/
+/****** Object:  StoredProcedure [dbo].[Modif_Docente]    Script Date: 5/22/2022 8:05:00 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -373,7 +377,7 @@ create proc [dbo].[Modif_Docente]
 as
 update Docente set Nom_Docente=@Nom_Docente, Dire_Docente=@Dire_Docente, Tel_Docente=@Tel_Docente where ID_Docente=@ID_Docente
 GO
-/****** Object:  StoredProcedure [dbo].[Modif_Especialidad]    Script Date: 5/22/2022 7:44:07 PM ******/
+/****** Object:  StoredProcedure [dbo].[Modif_Especialidad]    Script Date: 5/22/2022 8:05:00 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -385,7 +389,7 @@ as
 update Especialidad set Nom_Especialidad=@Nom_Especialidad where Id_Especialidad=@Id_Especialidad
 
 GO
-/****** Object:  StoredProcedure [dbo].[Modif_Oficina]    Script Date: 5/22/2022 7:44:07 PM ******/
+/****** Object:  StoredProcedure [dbo].[Modif_Oficina]    Script Date: 5/22/2022 8:05:00 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
