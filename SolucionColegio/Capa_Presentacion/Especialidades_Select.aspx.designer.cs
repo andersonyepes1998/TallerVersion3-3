@@ -11,7 +11,7 @@ namespace Capa_Presentacion
 {
 
 
-    public partial class Cursos_Select
+    public partial class Especialidades_Select
     {
 
         /// <summary>

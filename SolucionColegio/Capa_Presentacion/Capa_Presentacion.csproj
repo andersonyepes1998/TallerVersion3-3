@@ -80,6 +80,10 @@
     <Content Include="Docentes_Insert.aspx" />
     <Content Include="Docentes_Select.aspx" />
     <Content Include="Docentes_Update.aspx" />
+    <Content Include="Especialidades_Insert.aspx" />
+    <Content Include="Especialidades_Select.aspx" />
+    <Content Include="Especialidads_Delete.aspx" />
+    <Content Include="Especialidads_Update.aspx" />
     <Content Include="estilos.css" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
@@ -175,6 +179,34 @@
     </Compile>
     <Compile Include="Docentes_Update.aspx.designer.cs">
       <DependentUpon>Docentes_Update.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Especialidades_Insert.aspx.cs">
+      <DependentUpon>Especialidades_Insert.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Especialidades_Insert.aspx.designer.cs">
+      <DependentUpon>Especialidades_Insert.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Especialidades_Select.aspx.cs">
+      <DependentUpon>Especialidades_Select.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Especialidades_Select.aspx.designer.cs">
+      <DependentUpon>Especialidades_Select.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Especialidads_Delete.aspx.cs">
+      <DependentUpon>Especialidads_Delete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Especialidads_Delete.aspx.designer.cs">
+      <DependentUpon>Especialidads_Delete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Especialidads_Update.aspx.cs">
+      <DependentUpon>Especialidads_Update.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Especialidads_Update.aspx.designer.cs">
+      <DependentUpon>Especialidads_Update.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -11,21 +11,36 @@ namespace Capa_Negocio
 {
     public class CN_Especialidad
     {
-        CD_Especialidad nuevaespecialidad = new CD_Especialidad();
+        CD_Especialidad CapaDato = new CD_Especialidad();
 
         public bool guardar_especialidad(CE_Especialidad oespe4)
         {
-            return nuevaespecialidad.guardar_especialidad(oespe4);
+            return CapaDato.guardar_especialidad(oespe4);
         }
 
-        public bool anular_especialidad(CE_Especialidad oespe5)
+        public bool modificar_especialidad(CE_Especialidad especialidad)
         {
-            return nuevaespecialidad.anular_especialidad(oespe5);
+            return CapaDato.modificar_especialidad(especialidad);
         }
 
-        public DataSet consultar_especialidad(CE_Especialidad oespe6)
+        public bool eliminar_especialidad(string Id)
         {
-            return nuevaespecialidad.consultar_especialidad(oespe6);
+            return CapaDato.eliminar_Especialidad(Id);
+        }
+
+        /*public bool anular_especialidad(CE_Especialidad oespe5)
+        {
+            return CapaDato.anular_especialidad(oespe5);
+        }*/
+
+        public  CE_Especialidad consultar_especialidad(string Id)
+        {
+            return CapaDato.consultar_especialidad(Id);
+        }
+
+        public List<CE_Especialidad> consultar_Especialidades()
+        {
+            return CapaDato.consultar_Especialidades();
         }
     }
 }

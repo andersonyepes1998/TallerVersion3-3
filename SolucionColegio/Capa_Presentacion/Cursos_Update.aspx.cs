@@ -21,7 +21,6 @@ namespace Capa_Presentacion
 
             Id_Curso.Text = x.Id_Curso;
             Nom_Curso.Text = x.Nom_Curso;
-
         }
 
         protected void Button1_Click(object sender, EventArgs e)
